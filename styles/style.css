@@ -851,18 +851,17 @@ body {
     .tour-paragraph,
     .tour-list,
     .tour-titles {
-        width: 330px;
-
+        width: 310px;
     }
 
     .tour-img {
         margin-top: 40px;
-        width: 340px;
+        width: 320px;
         height: 340px;
     }
 
     .tour-img img {
-        width: 330px;
+        width: 320px;
         height: auto;
         object-fit: cover;
     }
@@ -910,17 +909,18 @@ body {
     }
 
     .left-card,
-    .right-card {
+    .right-card,.center-card {
         margin: 0px 10px;
         width: 100%;
+        width: 320px;
         height: 289px;
     }
 
-    .center-card {
-        width: 334px;
+    /* .center-card {
+        width: 320px;
         height: 342px;
         margin: 0 auto;
-    }
+    } */
     .left-card .icon img,
     .right-card .icon img ,.center-card .icon img{
         height: 40px;
@@ -955,33 +955,38 @@ body {
         width: 310px;
         font-size: 14px;
     }
-
+    .deal-card-1,.deal-card-2, .deal-card-3{
+        height:400px ;
+    }
     .deal-card-one {
-        padding: 20px;
+        padding: 15px;
         width: 310px;
         height: 350px;
         border-radius: 16px;
         border: 2px solid #FFF;
         position: absolute;
-        top: 70px;
-        right: 12px;
+        top: 5%;
+        right: 3%;
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(2.5px);
     }
+    
 
     .deal-card-two {
-        padding: 10px;
-        width: 310px;
-        height: 400px;
+        padding: 20px;
+        width: 320px;
+        height: 350px;
         border-radius: 16px;
         border: 2px solid #FFF;
         position: absolute;
-        top: 50px;
-        left: 12px;
+        top: 5%;
+        left: 3%;
         background: rgba(255, 255, 255, 0.80);
-        backdrop-filter: blur(2.5px)
+        backdrop-filter: blur(2.5px);
     }
-
+    .deal-card-two .deal-card-icons .time h5,.deal-card-two .deal-card-icons .people h5, .deal-card-two .deal-card-icons .location h5{
+        margin: 0;
+    }
     .deal-card-icons {
         display: flex;
     }
