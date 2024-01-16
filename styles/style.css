@@ -1,4 +1,4 @@
-* {
+*{
     margin: o;
     padding: 0;
     box-sizing: border-box;
@@ -958,6 +958,9 @@ body {
     .deal-card-1,.deal-card-2, .deal-card-3{
         height:400px ;
     }
+    .deal-card-2{
+        width: 323px;
+    }
     .deal-card-one {
         padding: 15px;
         width: 310px;
@@ -966,7 +969,7 @@ body {
         border: 2px solid #FFF;
         position: absolute;
         top: 5%;
-        right: 3%;
+        right:5.5px;
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(2.5px);
     }
@@ -979,8 +982,8 @@ body {
         border-radius: 16px;
         border: 2px solid #FFF;
         position: absolute;
-        top: 5%;
-        left: 3%;
+        top: 7%;
+        left: 1.5px;
         background: rgba(255, 255, 255, 0.80);
         backdrop-filter: blur(2.5px);
     }
